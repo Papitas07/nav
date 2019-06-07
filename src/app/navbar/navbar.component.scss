@@ -19,14 +19,13 @@
 
 .bell{
     font-size: 33px;
+    margin-left: 25%;
 }
 
-img {
-  margin-left: 10%;
+.imgProfil {
+  margin-left: 3%;
 }
-.btnSearch{
-  width: 20em;
-}
+
 .navBlack {
   background-color:  #3c424d;
   
@@ -37,5 +36,27 @@ a:hover {
   color :black !important;
 
  }
+ .search-container{
+   margin-left: 30%;
+ }
 
-
+ @media screen and (max-width: 600px) {
+.search-container {
+    float: none;
+  }
+ .search-container {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .imgProfil{
+    width:10%;
+  }
+  .bell{
+    font-size: 20px;
+    margin-left:250px; 
+}
+ }
